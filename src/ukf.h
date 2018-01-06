@@ -22,6 +22,11 @@ public:
   ///* Augmented state dimension
   int n_aug_;
 
+  int nsigma;
+
+  // for check DBZ
+  const float dbz = 0.001;
+
  //* radar measurement dimension
   int n_zlas_;
 
